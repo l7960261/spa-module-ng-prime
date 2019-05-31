@@ -1,0 +1,20 @@
+<p-table [value]="orders">
+  <ng-template pTemplate="header">
+    <tr>
+      <th>交易時間</th>
+      <th>數位帳戶</th>
+      <th>交易序號</th>
+      <th>轉進</th>
+      <th>轉出</th>
+    </tr>
+  </ng-template>
+  <ng-template pTemplate="body" let-order>
+    <tr>
+      <td>{{order.createdOn}}</td>
+      <td>{{order.email}}</td>
+      <td>{{order.id}}</td>
+      <td>{{order.in}}</td>
+      <td>{{order.out}}</td>
+    </tr>
+  </ng-template>
+</p-table>
