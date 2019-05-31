@@ -117,7 +117,12 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "**/*",
+                "input": "./public/",
+                "output": "/"
+              }
             ],
             "styles": [
               "node_modules/primeicons/primeicons.css",
