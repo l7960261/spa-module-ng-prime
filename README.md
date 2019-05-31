@@ -1,3 +1,5 @@
+[![Dependency Status](https://david-dm.org/l7960261/spa-module-ng-prime.svg)](https://david-dm.org/l7960261/spa-module-ng-prime) [![devDependency Status](https://david-dm.org/l7960261/spa-module-ng-prime/dev-status.svg)](https://david-dm.org/l7960261/spa-module-ng-prime?type=dev)
+
 # SpaModuleNgPrime
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.9.
