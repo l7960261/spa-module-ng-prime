@@ -4,11 +4,11 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build:single-spa": "ng run spa-module-ng-prime:single-spa",
+    "build:single-spa": "ng run spa-module-ng-prime:single-spa --configuration=production",
     "serve:single-spa": "ng run spa-module-ng-prime:single-spa-serve"
   },
   "private": true,
